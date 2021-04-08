@@ -1,3 +1,27 @@
-@media (max-width: 1599px) {
-	
+@media (min-width: 360px) {
+}
+
+@media (min-width: 980px) {
+  .primary-nav__left > * ~ * {
+    margin-left: 30px;
+  }
+
+  .primary-nav__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .primary-nav__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+    max-width: 70%;
+  }
+
+  .primary-nav__button {
+    margin-left: 20%;
+  }
 }

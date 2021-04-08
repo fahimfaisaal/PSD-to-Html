@@ -8,6 +8,7 @@
 /** Primary nav*/
 .primary-nav {
   display: flex;
+  align-items: center;
   justify-content: space-around;
 
   background-color: var(--primary-color);
@@ -18,23 +19,17 @@
 }
 
 /** left portion */
-.primary-nav__left > * ~ * {
-  margin-left: 30px;
-}
-
 .primary-nav__phone,
 .primary-nav__email {
   font-family: "Open-Sans-400";
   margin-left: 5px;
 }
 
-/** right portion */
 .primary-nav__right {
-  display: flex;
-  width: 25%;
-  justify-content: space-between;
+  text-align: center;
 }
 
+/** right portion */
 .primary-nav__login > a {
   color: var(--primary-text-color);
 }
@@ -43,7 +38,8 @@
 .primary-nav__button {
   background-color: var(--secondary-color);
   padding: 10px 15px;
-  margin-top: -10px;
+  text-align: center;
+  width: 100%;
 
   border-radius: 15px;
 }

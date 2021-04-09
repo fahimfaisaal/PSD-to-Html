@@ -56,12 +56,13 @@
 
 .primary-nav__button a {
   color: var(--secondary-text-color);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 
-.primary-nav__button:hover a {
+.primary-nav__button:hover a,
+.primary-nav__button:focus a {
   color: var(--secondary-color);
-  transform: scale(0.8);
+  transform: scale(0.95);
 }
 
 /** secondary navigation */

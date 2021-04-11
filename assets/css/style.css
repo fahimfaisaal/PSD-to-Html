@@ -6,9 +6,6 @@
 }
 
 .custom-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 85%;
   margin: 0 auto;
 }
@@ -78,6 +75,12 @@
 .menu > li a {
   color: var(--secondary-text-color);
   text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+}
+
+.menu > li a:hover {
+  font-style: italic;
+  color: var(--primary-color);
 }
 
 .menu > li:last-child > a > i {

@@ -13,8 +13,8 @@
     align-items: center;
   }
 
-  .primary-nav__button {
-    margin-left: 20%;
+  .primary-nav__login {
+    margin-right: 20px;
   }
 
   /* * secondary navigation */
@@ -26,6 +26,12 @@
     display: flex;
     justify-content: space-between;
     width: 60%;
+  }
+
+  .flex-it {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 

@@ -6,7 +6,7 @@
 }
 
 .custom-container {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -95,4 +95,23 @@
 
 .menu > li:last-child > a > i:hover {
   transform: rotate(90deg) scale(1.1);
+}
+
+.hero__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero__image {
+  text-align: center;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__title > * ~ * {
+  margin-top: 15px;
 }

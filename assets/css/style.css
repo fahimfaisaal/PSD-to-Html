@@ -115,3 +115,11 @@
 .hero__title > * ~ * {
   margin-top: 15px;
 }
+
+.hero__title-button > a {
+  padding: 15px 15px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+
+  color: var(--secondary-color);
+}
